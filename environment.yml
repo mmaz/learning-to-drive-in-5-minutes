@@ -1,0 +1,25 @@
+name: deeprl
+dependencies:
+    - python=3.6
+    - numpy
+    - matplotlib
+    - jupyter
+    - h5py
+    - flask-socketio
+    - scikit-learn
+    - tensorflow
+    - keras
+    - pip
+    - pip:
+        - eventlet
+        - opencv-python
+        - PyYAML
+        - mpi4py
+        - pillow
+        - gym
+        - stable-baselines>=2.4.0
+        - pytablewriter
+        - cloudpickle
+        - pygame
+        - joblib
+        - tqdm
